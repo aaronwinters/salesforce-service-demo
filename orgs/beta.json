@@ -1,0 +1,43 @@
+{
+  "orgName": "demo-salesforce-servicecloud - Beta Test Org",
+  "edition": "Developer",
+  "features": [
+    "LightningServiceConsole",
+    "LiveAgent",
+    "LiveMessage",
+    "ServiceCloud"
+  ],
+  "settings": {
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
+    },
+    "chatterSettings": {
+      "enableChatter": true
+    },
+    "userManagementSettings": {
+      "enableNewProfileUI": true
+    },
+    "securitySettings": {
+      "enableAdminLoginAsAnyUser": true,
+      "sessionSettings": {
+        "forceRelogin": false
+      }
+    },
+    "languageSettings": {
+      "enableTranslationWorkbench": true
+    },
+    "omniChannelSettings": {
+      "enableOmniChannel": true,
+      "enableOmniSecondaryRoutingPriority": true,
+      "enableOmniSkillsRouting": true
+    },
+    "liveAgentSettings": {
+      "enableLiveAgent": true,
+      "enableQuickTextEnabled": true
+    },
+    "caseSettings": {
+      "closeCaseThroughStatusChange": true,
+      "enableCaseFeed": true
+    }
+  }
+}

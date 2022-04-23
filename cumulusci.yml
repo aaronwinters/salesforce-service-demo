@@ -1,0 +1,24 @@
+minimum_cumulusci_version: "3.55.0"
+project:
+    name: salesforce-service-demo
+    package:
+        name: salesforce-service-demo
+        api_version: "54.0"
+    git:
+    source_format: sfdx
+
+tasks:
+    robot:
+        options:
+            suites: robot/salesforce-service-demo/tests
+            options:
+                outputdir: robot/salesforce-service-demo/results
+
+    robot_testdoc:
+        options:
+            path: robot/salesforce-service-demo/tests
+            output: robot/salesforce-service-demo/doc/salesforce-service-demo_tests.html
+
+    run_tests:
+        options:
+            required_org_code_coverage_percent: 75
