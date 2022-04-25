@@ -12,3 +12,6 @@ package.xml
 **/__tests__/**
 
 force-app/main/default/presenceUserConfigs/default_presence_config
+
+# Exclude appMenus directory since these files typically fail to deploy
+force-app/main/default/appMenus/*
