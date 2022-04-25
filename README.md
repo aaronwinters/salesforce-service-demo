@@ -1,4 +1,5 @@
-# demo-salesforce-servicecloud
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=aaronwinters_salesforce-service-demo&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=aaronwinters_salesforce-service-demo)  [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=aaronwinters_salesforce-service-demo&metric=coverage)](https://sonarcloud.io/summary/new_code?id=aaronwinters_salesforce-service-demo)
+# Salesforce Service Demo App
 
 Sample customer service solution using Salesforce Service Cloud. Used for feature demos and proofs of concept.
 
