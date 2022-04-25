@@ -10,8 +10,7 @@ on:
       - feature/*
 
 jobs:
-  validation-deploy:
-    name: validate-deploy-and-test
+  validate-deploy-and-test:
     runs-on: ubuntu-latest
     steps:
       # Checkout the source code
