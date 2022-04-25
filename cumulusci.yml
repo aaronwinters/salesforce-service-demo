@@ -3,7 +3,7 @@ project:
     name: salesforce-service-demo
     package:
         name: salesforce-service-demo
-        api_version: "54.0"
+        api_version: "53.0"
     git:
     source_format: sfdx
 
@@ -22,3 +22,11 @@ tasks:
     run_tests:
         options:
             required_org_code_coverage_percent: 75
+
+flows:
+    dev_org:
+        steps:
+            5:
+                task: assign_permission_sets
+                options:
+                    api_names: Customer_Support_Console_User
